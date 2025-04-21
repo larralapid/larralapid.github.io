@@ -6,8 +6,8 @@ name: Deploy Astro site to Pages
 
 on:
   # Runs on pushes targeting the default branch
-  #push:
-   # branches: ["main"]
+  push:
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -25,7 +25,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  BUILD_PATH: "." # default value when not using subfolders
+  BUILD_PATH: "./dist" # default value when not using subfolders
   # BUILD_PATH: subfolder
 
 jobs:
