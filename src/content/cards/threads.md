@@ -6,7 +6,7 @@ backgroundColor: "#edf7fc"
 textColor: "#1DA1F2"
 borderColor: "#1DA1F2"
 icon:
-  src: https://github.com/larralapid/larralapid.github.io/blob/main/public/threads.png?raw=true
+  src: https://raw.githubusercontent.com/larralapid/larralapid.github.io/5be3d03ea8869fac291f0ec4b206374107ad73c7/public/threads.svg
   alt: "threads"
 button: 
   text: "@lauralappid"
