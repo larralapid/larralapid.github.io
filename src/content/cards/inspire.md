@@ -6,4 +6,5 @@ backgroundColor: "#fff7fd"
 textColor: "#75005a"
 borderColor: "#75005a"
 cardSize: 'small'
+active: false
 ---

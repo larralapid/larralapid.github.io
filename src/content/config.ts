@@ -8,7 +8,8 @@ const baseSchema = z.object({
   textColor: z.string().optional(),
   borderColor: z.string().optional(),
   cardSize: z.enum(['small', 'medium', 'large']).default('small'),
-})
+  active: z.boolean().default(true), // Added active property with default value
+});
 
 export const linkSchema = baseSchema.extend({
   type: z.literal('link'),
