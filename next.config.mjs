@@ -1,0 +1,18 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    unoptimized: true,
+  },
+  assetPrefix: './',
+  basePath: process.env.NODE_ENV === 'production' ? '/vcard-portfolio' : '',
+  trailingSlash: true,
+};
+
+export default nextConfig;
