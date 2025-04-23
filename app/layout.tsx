@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "vCard - Personal Portfolio",
   description: "Personal portfolio template",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
