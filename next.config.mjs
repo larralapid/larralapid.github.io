@@ -9,8 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: './',
-  basePath: process.env.NODE_ENV === 'production' ? '/vcard-portfolio' : '',
+  // Remove assetPrefix and basePath — you're at root
   trailingSlash: true,
 };
 
